@@ -1,0 +1,109 @@
+[global_config]
+  inactive_color_offset = 1.0
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ebdbb2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+  [[Ocean dark]]
+    background_color = "#1c1f27"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#a0a4b2"
+    foreground_color = "#979cac"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#4f4f4f:#af4b57:#afd383:#e5c079:#7d90a4:#a4799d:#85a6a5:#eeedee:#7b7b7b:#af4b57:#ceffab:#fffecc:#b5dcfe:#fb9bfe:#dfdffd:#fefffe"
+  [[Material-Ocean]]
+    background_color = "#0f111a"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#ffcc00"
+    cursor_color_fg = False
+    foreground_color = "#8f93a2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#2e3436:#ff5370:#c3e88d:#ffcb6b:#82aaff:#c792ea:#89ddff:#d3d7cf:#555753:#f07178:#c3e88d:#f78c6c:#729fcf:#bb80b3:#89ddff:#eeeeec"
+  [[After Dark]]
+    background_color = "#10111b"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = JetBrains Mono 12
+    foreground_color = "#ebdbb2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#2e3436:#ef4a9e:#00d2bc:#e7ca7a:#9399fa:#ca5bcc:#86d079:#d3d7cf:#555753:#ef4a9e:#00d2bc:#e7ca7a:#9399fa:#ca5bcc:#86d079:#eeeeec"
+    use_system_font = False
+  [[Aci]]
+    background_color = "#0d1926"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#c4e9ff"
+    foreground_color = "#b4e1fd"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#363636:#ff0883:#83ff08:#ff8308:#0883ff:#8308ff:#08ff83:#b6b6b6:#363636:#ff0883:#83ff08:#ff8308:#0883ff:#8308ff:#08ff83:#b6b6b6"
+  [[Firewatch]]
+    background_color = "#1e2027"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#f6f7ec"
+    foreground_color = "#9ba2b2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#585f6d:#d95360:#5ab977:#dfb563:#4d89c4:#d55119:#44a8b6:#e6e5ff:#585f6d:#d95360:#5ab977:#dfb563:#4c89c5:#d55119:#44a8b6:#e6e5ff"
+  [[SpaceGray]]
+    background_color = "#20242d"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#b3b8c3"
+    foreground_color = "#b3b8c3"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000000:#b04b57:#87b379:#e5c179:#7d8fa4:#a47996:#85a7a5:#b3b8c3:#000000:#b04b57:#87b379:#e5c179:#7d8fa4:#a47996:#85a7a5:#ffffff"
+  [[Tomorrow Night]]
+    background_color = "#1d1f21"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#c5c8c6"
+    foreground_color = "#c5c8c6"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000000:#cc6666:#b5bd68:#f0c674:#81a2be:#b294bb:#8abeb7:#ffffff:#000000:#cc6666:#b5bd68:#f0c674:#81a2be:#b294bb:#8abeb7:#ffffff"
+  [[Atom]]
+    background_color = "#161719"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#d0d0d0"
+    foreground_color = "#c5c8c6"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000000:#fd5ff1:#87c38a:#ffd7b1:#85befd:#b9b6fc:#85befd:#e0e0e0:#000000:#fd5ff1:#94fa36:#f5ffa8:#96cbfe:#b9b6fc:#85befd:#e0e0e0"
+  [[TokyoNight]]
+    background_color = "#1a1b26"
+    background_darkness = 0.96
+    cursor_color = "#aaaaaa"
+    font = JetBrains Mono 12
+    foreground_color = "#c0caf5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#363b54:#bf3f3f:#41a6b5:#e0af68:#7aa2f7:#bb9af7:#7dcfff:#787c99:#363b54:#f7768e:#41a6b5:#e0af68:#7aa2f7:#bb9af7:#7dcfff:#acb0d0"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = TokyoNight
+[plugins]
